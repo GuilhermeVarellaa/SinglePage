@@ -1,0 +1,26 @@
+.project {
+  padding: 32px;
+  border-radius: var(--radius-md);
+  background: rgba(2, 6, 23, 0.45);
+  border: 1px solid rgba(76, 93, 245, 0.24);
+  display: grid;
+  gap: 16px;
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-4px);
+  border-color: rgba(76, 93, 245, 0.5);
+}
+
+.project__links {
+  display: flex;
+  gap: 16px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-accent);
+}
+
+.project__links a:hover {
+  text-decoration: underline;
+}

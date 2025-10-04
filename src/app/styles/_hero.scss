@@ -1,0 +1,56 @@
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 48px;
+  padding: 56px;
+  background: linear-gradient(140deg, rgba(76, 93, 245, 0.28), rgba(15, 23, 42, 0.95));
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(76, 93, 245, 0.35);
+  box-shadow: var(--shadow-soft);
+}
+
+.hero__copy {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero__kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 0.8rem;
+  color: rgba(226, 232, 240, 0.6);
+}
+
+.hero h1 {
+  font-size: clamp(2.6rem, 3.1vw + 1rem, 3.8rem);
+  line-height: 1.05;
+  margin: 0;
+}
+
+.hero__role {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-accent);
+  margin-top: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.hero__description {
+  font-size: 1.05rem;
+  max-width: 520px;
+}
+
+.hero__actions {
+  display: flex;
+  gap: 16px;
+}
+
+.hero__signals {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: rgba(226, 232, 240, 0.7);
+}

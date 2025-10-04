@@ -1,0 +1,25 @@
+.timeline {
+  display: grid;
+  gap: 24px;
+}
+
+.timeline__item {
+  padding: 28px;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  background: rgba(2, 6, 23, 0.4);
+  backdrop-filter: blur(10px);
+  display: grid;
+  gap: 16px;
+}
+
+.timeline__period {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.85rem;
+  color: rgba(148, 163, 184, 0.9);
+}
+
+.timeline__org {
+  color: rgba(148, 163, 184, 0.8);
+  font-size: 0.95rem;
+}

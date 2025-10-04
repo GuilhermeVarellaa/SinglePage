@@ -1,0 +1,57 @@
+.hero__profile {
+  background: rgba(2, 6, 23, 0.35);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+}
+
+.profile__badge {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.profile__initials {
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  background: linear-gradient(160deg, rgba(76, 93, 245, 0.8), rgba(53, 214, 255, 0.8));
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: #020617;
+  box-shadow: 0 16px 30px rgba(76, 93, 245, 0.35);
+}
+
+.profile__status {
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.profile__details {
+  display: grid;
+  gap: 12px;
+}
+
+.profile__details li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 18px;
+  border-radius: var(--radius-md);
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.profile__details span {
+  color: rgba(226, 232, 240, 0.64);
+  font-size: 0.85rem;
+}
+
+.profile__details strong {
+  font-size: 1rem;
+}

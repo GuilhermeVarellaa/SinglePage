@@ -1,0 +1,38 @@
+.topbar {
+  position: sticky;
+  top: 24px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 28px;
+  border-radius: var(--radius-lg);
+  backdrop-filter: blur(18px);
+  background: linear-gradient(120deg, rgba(17, 24, 39, 0.85), rgba(15, 23, 42, 0.6));
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 0.12em;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  font-size: 0.95rem;
+}
+
+.menu a {
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  color: var(--color-text-muted);
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+.menu a:hover {
+  background: rgba(53, 214, 255, 0.08);
+  color: var(--color-text);
+}
